@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main"></div>
+    <script>
+        let main = document.getElementById('main');
+        main.style.width = '450px';
+        main.style.height = '600px';
+        main.style.background = 'gray';
+
+        let image = document.createElement('img');
+        image.src = 'https://images.prom.ua/3382847216_w640_h640_taburetka-buk-standart.jpg';
+        image.style.width = '250px';
+        image.style.height = '250px';
+        <!-- image.style.borderRadius = '50%'; -->
+        image.style.marginLeft = '90px';
+        image.style.marginTop = '50px';
+        main.appendChild(image);
+
+        let div1 = document.createElement('div');
+        div1.innerText = "Киберсыпортивная Табурека Бабы Зины. Мечта каждого пацана";
+        div1.style.color = 'black';
+        div1.style.fontSize = '24px';
+        div1.style.fontWeight = 'bold';
+        div1.style.textAlign = 'center';
+        div1.style.marginTop = '25px';
+        main.appendChild(div1);
+
+        let div2 = document.createElement('div');
+        div2.innerText = "55.500$";
+        div2.style.color = 'white';
+        div2.style.fontSize = '26px';
+        div2.style.fontWeight = 'bold';
+        div2.style.textAlign = 'center';
+        div2.style.marginTop = '25px';
+        main.appendChild(div2);
+
+        let div3 = document.createElement('div');
+        div3.style.background = '#32CD32';
+        div3.innerText = "Купи, будешь красавой"
+        div3.style.color = 'white';
+        div3.style.padding = '25px';
+        div3.style.width = '280px';
+        div3.style.height = 'auto';
+        div3.style.borderRadius = '28px';
+        div3.style.marginTop = '70px'; 
+        div3.style.marginLeft = '50px';
+        div3.style.textAlign = 'center';
+        div3.style.fontSize = '20px';
+        main.appendChild(div3)
+    </script>
+</body>
+</html>
